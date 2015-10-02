@@ -1,0 +1,345 @@
+body{
+	padding:20px;
+	background-color: #D9D9D9;
+	overflow-x:hidden;
+}
+#personinfoleft div img{
+	border-radius: 10px;
+	width: 300px;
+}
+#controller{
+	position: fixed;
+	width:1000px;
+	bottom:0px;
+	left:200px;
+}
+#controller1{
+	color:white;
+	line-height: 70px;
+	width:150px;
+	background-color: #00F4AA;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 22px;
+	border-radius: 10px 0px 0px 0px;
+	opacity: 0.65;
+	float:left;
+}
+#controller2{
+	color:white;
+	line-height: 70px;
+	width:150px;
+	background-color: #FF7C00;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 22px;
+	opacity: 0.65;
+	float:left;
+}
+#controller3{
+	color:white;
+	line-height: 70px;
+	width:150px;
+	background-color: #E1007F;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 22px;
+	opacity: 0.65;
+	float:left;
+	height: 70px;
+}
+#controller4{
+	color:white;
+	line-height: 70px;
+	width:150px;
+	background-color: #74D800;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 22px;
+	opacity: 0.65;
+	float:left;
+	height: 70px;
+}
+#controller5{
+	color:white;
+	line-height: 70px;
+	width:150px;
+	background-color: #4016C6;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 22px;
+	opacity: 0.65;
+	float:left;
+	height: 70px;
+	border-radius: 0px 10px 0px 0px;
+}
+#wrapper{
+	position: absolute;
+	left: 30px;
+	top:30px;
+	width:10000px;
+	height:520px;
+}
+#frontcover{
+	padding:40px;
+	border-radius: 10px;
+	background: #D0F8F8;
+	width:1220px;
+	height:520px;
+	box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
+	float:left;
+}
+#frontdescription{
+	float:left;
+	margin-left: 265px;
+	margin-top:200px;
+	font-family: Microsoft JhengHei;
+	font-size: 50px;
+	color: #026C6C;
+	text-shadow:3px 3px 3px #22BBBB;
+}
+#personinfo{
+	margin-left: 100px;
+	padding:40px;
+	border-radius: 10px;
+	background: #FFE446;
+	width:1220px;
+	height:520px;
+	box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
+	float:left;
+}
+#personinfoleft{
+	width:300px;
+	float:left;
+}
+#persontitle{
+	border-radius: 10px;
+	line-height: 150px;
+	font-size: 50px;
+	width: 300px;
+	text-align: center;
+	margin-top: 71px;
+	font-family: Microsoft JhengHei;
+	color:white;
+	background-color: #FF8825;
+	box-shadow: 4px 4px 10px 0px rgba(162,98,21,1);
+}
+#persondata{
+	width:60%;
+	height:500px;
+	background-color: #FFCB46;
+	margin-left: 10px;
+}
+#personinforight{
+	width:850px;
+	height:525px;
+	background-color: #FF8825;
+	box-shadow: 4px 4px 10px 0px rgba(232,148,21,1);
+	margin-left: 50px;
+	float:left;
+	border-radius: 10px;
+}
+#personinfoul{
+	font-family: Microsoft JhengHei;
+	font-size: 20px;
+	list-style-type: none;
+	color:white;
+}
+#personinfoul li{
+	margin-top: 15px;
+}
+#personinfoul li p{
+	width:300px;
+	margin-top: 0px;
+	margin-left: 35px;
+}
+#personinfoul li ul{
+	list-style-type: disc;
+}
+#autobio{
+	margin-left: 65px;
+	padding:40px;
+	border-radius: 10px;
+	background: #FFC9E3;
+	width:1220px;
+	height:520px;
+	box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
+	float:left;
+}
+#autobioleft{
+	float:left;
+}
+#autobiotitle{
+	border-radius: 10px;
+	line-height: 150px;
+	font-size: 50px;
+	width: 300px;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	color:white;
+	background-color: #EF88C2;
+	box-shadow: 4px 4px 10px 0px rgba(180,128,157,1);
+	margin: auto;
+}
+#autobiodescription1{
+	width:500px;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 25px;
+	text-shadow:1px 1px 1px #614F59;
+}
+#autobiodescription2{
+	width:690px;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 25px;
+	text-shadow:1px 1px 1px #614F59;
+	margin-top: 0px;
+	float:left;
+	margin-left: 30px;
+}
+#autobiodescription2 h1{
+	margin-top: 0px;
+}
+#autobiodescription1 p{
+	text-align: left;
+}
+#autobiodescription2 p{
+	text-align: left;
+}
+#autobiodescription3{
+	width:550px;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 25px;
+	text-shadow:1px 1px 1px #614F59;
+	margin-top: 0px;
+	float:left;
+	margin-left: 30px;
+}
+#autobiodescription3 h1{
+	float:left;
+	margin-left: 110px;
+	margin-top: 0px;
+}
+#autobiodescription3 div{
+	font-family: Microsoft JhengHei;
+	font-size: 18px;
+	text-shadow:1px 1px 1px #614F59;
+	width: 100px;
+	float:left;
+	text-align: left;
+	margin-top: 37px;
+}
+#autobiodescription3 p{
+	float: left;
+	text-align: left;
+	margin-top: 0px;
+}
+#achievement{
+	margin-left: 65px;
+	padding:40px;
+	border-radius: 10px;
+	background: #E4F9C3;
+	width:1220px;
+	height:520px;
+	box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
+	float:left;
+}
+#achievementleft{
+	float:left;
+}
+#achievementtitle{
+	border-radius: 10px;
+	line-height: 150px;
+	font-size: 50px;
+	width: 300px;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	color:white;
+	background-color: #AFF839;
+	box-shadow: 4px 4px 10px 0px rgba(149,189,83,1);
+	margin: auto;
+}
+#achievementcontroll div{
+	width:200px;
+	line-height:50px;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 20px;
+	background-color: #AFF839;
+	opacity: 0.65;
+	margin:auto;
+	box-shadow: 4px 0px 10px 0px rgba(149,189,83,1);
+	cursor:pointer;
+}
+#achievementright{
+	float:left;
+	margin-left: 80px;
+	background-color: #D1F696;
+	border-style: solid;
+	border-color: #C5F578;
+	border-width: 5px;
+	box-shadow: 4px 4px 10px 0px rgba(149,189,83,1);
+	display: none;
+	padding:30px;
+	font-family: Microsoft JhengHei;
+	font-size: 20px;
+}
+#achievementright div{
+	opacity: 0;
+}
+#topic{
+	margin-left: 65px;
+	padding:40px;
+	border-radius: 10px;
+	background: #B6B3FF;
+	width:1220px;
+	height:520px;
+	box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
+	float:left;
+}
+#topicleft{
+	float:left;
+}
+#topicdescription2{
+	width:690px;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 25px;
+	text-shadow:1px 1px 1px #614F59;
+	margin-top: 0px;
+	float:left;
+	margin-left: 30px;
+}
+#topicdescription2 li{
+	list-style-type: disc;
+	text-align: left;
+}
+#topicright{
+	float:left;
+	width:500px;
+}
+#topictitle{
+	border-radius: 10px;
+	line-height: 150px;
+	font-size: 50px;
+	width: 300px;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	color:white;
+	background-color: #604BA5;
+	box-shadow: 4px 4px 10px 0px rgba(95,58,214,1);
+	margin: auto;
+}
+#topicright ul{
+	list-style-type: none;
+	margin-left: 90px;
+	margin-top: 30px;
+}
+#topicright li{
+	color:black;
+	font-family: Microsoft JhengHei;
+	font-size: 25px;
+	text-shadow:1px 1px 1px #614F59;
+}
