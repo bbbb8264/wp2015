@@ -2,6 +2,8 @@ body{
 	padding:20px;
 	background-color: #D9D9D9;
 	overflow-x: hidden;
+	padding: 0px;
+	margin: 0px;
 }
 #personinfoleft div img{
 	border-radius: 10px;
@@ -11,7 +13,6 @@ body{
 	position: fixed;
 	width:1000px;
 	bottom:0px;
-	left:200px;
 }
 #controller1{
 	color:white;
@@ -36,7 +37,7 @@ body{
 	opacity: 0.65;
 	float:left;
 }
-#controller3{
+.controller3{
 	color:white;
 	line-height: 70px;
 	width:150px;
@@ -75,9 +76,7 @@ body{
 }
 #wrapper{
 	position: absolute;
-	left: 30px;
-	top:30px;
-	width:10000px;
+	width:12000px;
 	height:520px;
 }
 #frontcover{
@@ -156,7 +155,7 @@ body{
 #personinfoul li ul{
 	list-style-type: disc;
 }
-#autobio{
+.autobio{
 	margin-left: 65px;
 	padding:40px;
 	border-radius: 10px;

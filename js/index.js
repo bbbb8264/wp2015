@@ -1,10 +1,24 @@
 $(document).ready(function(){
+  $("#controller").css("margin-left",$(window).width()/2-450);
+  $("#wrapper").css("margin-left",$(window).width()/2-650);
+  $("#controller1").data("position",$(window).width()/2-650)+"px";
+  $("#wrapper").css("margin-top",$(window).height()/2-300);
+  $("#personinfo").css("margin-left",$(window).width()-1300);
+  $("#controller2").data("position",$(window).width()/2-650-$(window).width()+"px");
+  $(".autobio").css("margin-left",$(window).width()-1300);
+  $("#controll31").data("position",$(window).width()/2-650-$(window).width()*2+"px");
+  $("#achievement").css("margin-left",$(window).width()-1300);
+  $("#controll32").data("position",$(window).width()/2-650-$(window).width()*3+"px");
+  $("#topic").css("margin-left",$(window).width()-1300);
+  $("#controller4").data("position",$(window).width()/2-650-$(window).width()*4+"px");
+  $("#controller5").data("position",$(window).width()/2-650-$(window).width()*5+"px");
  	$("#controller div").mouseover(function(){
   		$(this).animate({
   			opacity:1
   		},200,function(){});
+      $("#wrapper").stop();
   		$("#wrapper").animate({
-  			left:$(this).data("position")
+  			"margin-left":$(this).data("position")
   		},350,function(){});
      	}).mouseout(function(){
   		   $(this).animate({
